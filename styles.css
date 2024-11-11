@@ -1,0 +1,255 @@
+.main-div {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div1 {
+  background-color: #231f20;
+  width: 600px;
+}
+.pic {
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: 3px solid #8e793e;
+  margin-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:"200px" ;
+    height:"200px";
+}
+h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.div-1-para {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+}
+ul {
+  color: white;
+  font-size: 20px;
+  margin-left: 130px;
+  color: #8e793e;
+}
+
+.div2 {
+  /* background-color:#8e793e; */
+  width: 1000px;
+  padding-top: 20px;
+}
+.ersa-rani{
+  font-size: 70px;
+  color: #8e793e; 
+  margin-top: 0px;
+   margin-left: 200px;
+   margin-bottom: 0px;
+}
+.developer {
+  border: 2px solid #8e793e;
+  margin-left: 30px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20%;
+}
+.form-button{
+  margin-top: 10px;
+   margin-left: 495px;
+   border: 2px solid #8e793e;
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 20%;
+}
+.form-button:hover{
+  background-color: #8e793e;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+}
+
+.div-2-para {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #8e793e;
+}
+.expo{
+  margin-left: 100px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #8e793e;
+}
+h3:before {
+  content: "";
+  position: absolute;
+  left: 150px;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  border-radius: 100px;
+  transition: width 0.3s ease;
+  /* bottom: 4px; */
+}
+h3:hover:before {
+  width: 360px;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  left: 650px;
+  width: 0;
+  height: 1px;
+  background-color: #8e793e;
+  border-radius: 100px;
+  transition: width 0.3s ease;
+  /* bottom: 4px; */
+}
+h2:hover:before {
+  width: 400px;
+}
+.pic:hover {
+  border-radius: 20%;
+  transition-duration: 1s;
+}
+.developer:hover {
+  background-color: #8e793e;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+.button {
+  margin-left: 500px;
+  border: 2px solid#8e793e;
+  background-color: #8e793e;
+  color: white;
+  border-radius: 20%;
+}
+.button:hover {
+  background-color: white;
+  color: #8e793e;
+  transition-duration: 1s;
+}
+.fa-square-instagram {
+  font-size: 50px;
+  margin-left: 200px;
+  color: #c2224a;
+}
+.fa-linkedin {
+  font-size: 50px;
+  margin-left: 80px;
+  color: blue;
+}
+.fa-github {
+  font-size: 50px;
+  margin-left: 80px;
+}
+
+.logo{
+  height: 100px;
+  width: 140px;
+  margin-left: -540px;
+  bottom: -1000px;
+}
+
+
+@media (max-width: 320px) {
+  .main-div {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div1, .div2 {
+    width: 100%;
+  }
+
+  .ersa-rani {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  .pic {
+  margin-left: 100px;
+  }
+
+  .button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  h3, h2 {
+    justify-content: center;
+  }
+  .div-1-para{
+    padding-left: 50px;
+  }
+ul{
+padding-left: 120px;
+}
+.logo{
+  padding-left: 100px;
+  padding-top: 30px;
+
+}
+.form-button{
+  margin-left: 100px;
+}
+.div-2-para{
+padding-left: 10px;
+}
+.expo{
+  margin-left: 10px;
+}
+#footer{
+  margin-left: 70px;
+}
+
+@media (max-width: 730px) {
+  .main-div {
+    width: 100%;
+  }
+
+  .pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .ersa-rani {
+    font-size: 40px;
+  }
+
+  h2, h3 {
+    font-size: 25px;
+  }
+
+  .div-1-para, .div-2-para, ul {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .fa-square-instagram, .fa-linkedin, .fa-github {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+}
+
+}
